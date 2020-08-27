@@ -1,0 +1,17 @@
+section {
+  padding-bottom: 94px;
+
+  &.features {
+    padding-top: 94px;
+  }
+}
+
+.section .section-title .title {
+  margin-top: 0;
+  margin-bottom: 10;
+  color: $first-title-text-color;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
