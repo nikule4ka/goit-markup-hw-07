@@ -183,7 +183,7 @@ section.features {
   margin-left: 30px;
 }
 
-.button {
+.button, .btn-modal, .button-footer {
   width: 200px;
   height: 50px;
   color: #ffffff;
@@ -206,22 +206,6 @@ section.features {
 }
 
 .btn-modal {
-  width: 200px;
-  height: 50px;
-  color: #ffffff;
-  background-color: #2196f3;
-  border-radius: 4px;
-  border: 0;
-  cursor: pointer;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  outline: none;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   position: absolute;
   left: 50%;
   bottom: 0;
@@ -235,23 +219,6 @@ section.features {
 }
 
 .button-footer {
-  width: 200px;
-  height: 50px;
-  color: #ffffff;
-  background-color: #2196f3;
-  border-radius: 4px;
-  border: 0;
-  cursor: pointer;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.87;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   padding-left: 29px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
