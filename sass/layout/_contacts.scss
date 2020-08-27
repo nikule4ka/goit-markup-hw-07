@@ -1,6 +1,10 @@
 .contacts {
   color: $primary-text-color;
   display: flex;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   font-weight: 500;
   font-size: 14px;
   height: 1.14;
@@ -26,8 +30,4 @@
 
 .site-nav .contacts + .contacts {
   margin-left: 30px;
-}
-.site-nav .contacts {
-  padding-top: 32px;
-  padding-bottom: 32px;
 }

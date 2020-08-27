@@ -1,0 +1,39 @@
+.button {
+  width: 200px;
+  height: 50px;
+  color: $primary-white-color;
+  background-color: $accent-color;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.8;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  outline: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.btn-modal {
+  @extend .button
+
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  margin-bottom: 40px;
+
+  &:hover {
+    background-color: $primary-text-color;
+  }
+}
+
+.button-footer {
+  @extend .button
+
+  padding-left: 29px;
+  display: inline-flex;
+}

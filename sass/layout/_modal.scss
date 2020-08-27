@@ -10,12 +10,12 @@
   z-index: 1;
   opacity: 1;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.backdrop.is-hidden {
-  visibility: hidden;
-  opacity: 0;
-  pointer-events: none;
+  &.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+  }
 }
 
 .modal {
@@ -30,17 +30,17 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-}
 
-.modal-title {
-  color: $first-title-text-color;
-  margin: 0;
-  padding-top: 40px;
-  padding-bottom: 12px;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 1.15;
-  text-align: center;
+  &-title {
+    color: $first-title-text-color;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 12px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+  }
 }
 
 .form {
@@ -126,6 +126,27 @@
   padding: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
+
+  &-label {
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+
+    padding-bottom: 30px;
+    transform: translateX(54px);
+  }
+
+  &-title {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
+
+  &-policy {
+    color: $accent-color;
+    text-decoration: underline;
+  }
 }
 
 .checkbox-icon {
@@ -147,55 +168,6 @@
     background-image: url(../images/icon-check.svg);
     background-size: contain;
     background-origin: border-box;
-  }
-}
-
-.checkbox-label {
-  position: absolute;
-  display: inline-flex;
-  align-items: center;
-
-  padding-bottom: 30px;
-  transform: translateX(54px);
-}
-
-.checkbox-title {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-}
-
-.checkbox-policy {
-  color: $accent-color;
-  text-decoration: underline;
-}
-
-.btn-modal {
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  transform: translateX(-50%);
-
-  margin-bottom: 40px;
-  width: 200px;
-  height: 50px;
-
-  background-color: $accent-color;
-  color: $primary-white-color;
-  border-radius: 4px;
-  border: 0;
-  outline: none;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-
-  &:hover {
-    background-color: $primary-text-color;
   }
 }
 

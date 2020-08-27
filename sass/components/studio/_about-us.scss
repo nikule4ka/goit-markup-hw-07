@@ -1,18 +1,24 @@
-.about-us.list {
+.about-us {
   display: flex;
+
+  .item {
+    margin-right: 30px;
+  }
+
+  .title {
+    color: $first-title-text-color;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+  }
 }
 
-.about-us.list .item {
-  margin-right: 30px;
-}
-
-.about-us .title {
-  color: $first-title-text-color;
-
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 .img-about {
@@ -31,12 +37,6 @@
 
   font-size: 14px;
   line-height: 1.7;
-}
-
-.list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
 }
 
 .title {
