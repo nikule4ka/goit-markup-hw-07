@@ -4,42 +4,6 @@
   padding-top: 94px;
 }
 
-.portfolio-button {
-  margin-left: 8px;
-}
-
-.radio-button {
-  color: $first-title-text-color;
-  background-color: $second-bg-color;
-  font-family: inherit;
-
-  text-align: center;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
-  border: none;
-  border-radius: 4px;
-  align-items: center;
-
-  padding-top: 6px;
-  padding-right: 22px;
-  padding-bottom: 6px;
-  padding-left: 22px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  &:hover,
-  &:focus {
-    color: $primary-white-color;
-    background-color: $accent-color;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
-}
-
-// projects
-
 .list.projects {
   padding-top: 34px;
   padding-bottom: 94px;
@@ -104,11 +68,11 @@
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
     opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.flex-container:hover .text-proects {
-  transform: translateY(0);
-  opacity: 1;
+  .flex-container:hover & {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .portfolio-card-content {
@@ -141,8 +105,4 @@
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-}
-
-.project-img {
-  display: block;
 }
