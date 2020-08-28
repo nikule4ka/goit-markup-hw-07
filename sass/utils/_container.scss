@@ -4,18 +4,5 @@
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-}
-
-.site-nav {
-  display: flex;
-  margin-left: auto;
-
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-
-  & .item:not(:last-child) {
-    margin-right: 40px;
-  }
+  position: relative;
 }
