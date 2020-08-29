@@ -99,11 +99,13 @@
   }
 }
 
-.form-field:hover .modal-input,
-.form-field:focus .modal-input,
-.comment:focus,
-.comment:hover {
-  border: 1px solid $accent-color;
+.form-field:hover {
+  .modal-input,
+  .form-field:focus .modal-input,
+  .comment:focus,
+  .comment:hover {
+    border: 1px solid $accent-color;
+  }
 }
 
 .icon-modal {

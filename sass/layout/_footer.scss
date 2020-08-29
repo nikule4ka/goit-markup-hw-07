@@ -21,8 +21,10 @@
   }
 }
 
-.button-footer .send {
-  margin-left: 10px;
+.button-footer {
+  .send {
+    margin-left: 10px;
+  }
 }
 
 .bg-footer {
@@ -30,8 +32,10 @@
   height: 252px;
 }
 
-.bg-footer .container {
+.bg-footer {
+  .container {
   display: flex;
+}
 }
 
 .address-footer {
@@ -67,9 +71,11 @@
   margin-bottom: 9px;
 }
 
-.container .join {
+.container {
+  .join {
   padding-top: 72px;
   padding-left: 69px;
+}
 }
 
 .links.list {

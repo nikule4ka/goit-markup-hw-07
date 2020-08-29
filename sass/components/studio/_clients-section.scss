@@ -7,9 +7,11 @@
   display: flex;
 }
 
-.section .item.clients {
+.section {
+  .item.clients {
   width: calc((100% - 150px) / 6);
   margin-right: 30px;
+}
 }
 
 .company {

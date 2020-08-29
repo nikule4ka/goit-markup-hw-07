@@ -942,9 +942,9 @@ section.features {
 }
 
 .form-field:hover .modal-input,
-.form-field:focus .modal-input,
-.comment:focus,
-.comment:hover {
+.form-field:hover .form-field:focus .modal-input,
+.form-field:hover .comment:focus,
+.form-field:hover .comment:hover {
   border: 1px solid #2196f3;
 }
 
