@@ -27,6 +27,8 @@
   fill: currentColor;
 }
 
-.site-nav .contacts + .contacts {
-  margin-left: 30px;
+.site-nav {
+  .contacts + .contacts {
+    margin-left: 30px;
+  }
 }

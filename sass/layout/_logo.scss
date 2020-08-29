@@ -8,14 +8,12 @@
   &.main {
     color: $accent-color;
   }
-}
-
-.logo.second {
-  color: $second-logo-color;
-  margin-right: 85px;
-  display: inline-block;
-}
-
-.logo.white {
-  color: $primary-white-color;
+  &.second {
+    color: $second-logo-color;
+    margin-right: 85px;
+    display: inline-block;
+  }
+  &.white {
+    color: $primary-white-color;
+  }
 }

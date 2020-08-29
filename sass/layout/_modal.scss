@@ -99,9 +99,9 @@
   }
 }
 
-.form-field:hover {
+.form-field:hover,
+.form-field:focus {
   .modal-input,
-  .form-field:focus .modal-input,
   .comment:focus,
   .comment:hover {
     border: 1px solid $accent-color;
